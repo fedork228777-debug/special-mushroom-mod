@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "specialmushroom",
+  "version": "1.0.0",
+  "name": "Special Mushroom Mod",
+  "description": "Добавляет необычные грибы в лесах. Пожарь и съешь — получи непредсказуемые визуальные эффекты!",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.specialmushroom.SpecialMushroomMod"],
+    "client": ["com.specialmushroom.SpecialMushroomModClient"]
+  },
+  "mixins": ["specialmushroom.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20"
+  }
+}

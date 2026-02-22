@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "specialmushroom:special_mushroom"
+  },
+  "result": "specialmushroom:fried_special_mushroom",
+  "experience": 0.35,
+  "cookingtime": 200
+}
